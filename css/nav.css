@@ -1,0 +1,58 @@
+nav {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+nav div {
+    width: 100%;
+    align-items: center;
+}
+
+nav .hiperlinks {
+    display: flex;
+    justify-content: right;
+}
+
+nav .hiperlinks a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    display: grid;
+}
+
+nav .hiperlinks a:hover {
+    color: #ffe063;
+}
+
+nav .hiperlinks a span {
+    background-color: #ffe063;
+    width: 0%;
+    height: 3px;
+    border-radius: 5px;
+    margin-top: 3px;
+    transition: width 0.3s ease;
+}
+
+nav .hiperlinks a:hover span {
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        display: block;
+        text-align: center;
+    }
+    nav .hiperlinks {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    nav .hiperlinks {
+        display: none;
+    }
+}

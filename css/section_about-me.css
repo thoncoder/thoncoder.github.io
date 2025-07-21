@@ -1,0 +1,16 @@
+.about-me .wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-me .wrapper .box {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(13, 13, 13);
+    padding: 25px;
+    border: 1px solid rgb(21, 21, 21);
+}
+
+.about-me .wrapper .box b {
+    font-size: 45px;
+}
