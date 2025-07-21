@@ -14,3 +14,11 @@
 .about-me .wrapper .box b {
     font-size: 45px;
 }
+
+
+@media screen and (max-width: 365px) {
+    .about-me .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
