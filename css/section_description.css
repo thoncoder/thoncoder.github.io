@@ -1,0 +1,83 @@
+.description {
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 400px;
+    background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(15, 14, 14, 1) 35%, rgba(15, 14, 14, 1) 100%);
+}
+
+.description h1 {
+    font-size: 45px;
+}
+
+.description p {
+    width: 70%;
+    color: rgb(189, 188, 188);
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.description .text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.description .social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.description .social-media a {
+    background-color: rgb(14, 12, 12);
+    padding: 20px;
+    border: 1px solid rgb(32, 32, 32);
+    border-radius: 5px;
+}
+
+.description .social-media a:hover {
+    border: 2px solid rgb(32, 32, 32);
+    background-color: rgb(24, 20, 20);
+    transition: 1s;
+}
+
+.description .social-media img {
+    width: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .description {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .description .social-media {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .description .text {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .description {
+        padding: 10px;
+    }
+    .description .social-media a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .description .social-media {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
