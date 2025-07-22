@@ -15,6 +15,11 @@
     font-size: 45px;
 }
 
+.about-me .wrapper .box:hover {
+    transition: 1s;
+    border-bottom: 2px solid #ffe063;
+}
+
 
 @media screen and (max-width: 365px) {
     .about-me .wrapper {
