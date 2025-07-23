@@ -56,11 +56,10 @@ header #contact:hover {
     background-color: black;
 }
 
-.code-wrapper {
+/* .code-wrapper {
     display: inline-block;
     border-radius: 12px;
     overflow: hidden;
-  /* 💡 Glow forte e suave */
   box-shadow: 0 0 30px rgba(255, 255, 255, 0.2),
               0 0 60px rgba(255, 255, 255, 0.1),
               0 0 100px rgba(255, 255, 255, 0.05);
@@ -85,20 +84,20 @@ header #contact:hover {
     white-space: pre;
   }
 
-  /* Cores estilo IDE */
   .keyword     { color: #c792ea; }
   .type         { color: #ffe063; }
   .property    { color: #ffffff; }
   .string      { color: #c3e88d; }
   .number      { color: #7dff41; }
   .boolean     { color: #ffcb6b; }
-  .class-name  { color: #ffe063; }
+  .class-name  { color: #ffe063; } */
 
 @media screen and (max-width: 850px) {
   header {
     text-align: center;
     display: block; /* opcional, pode manter como grid ou flex se quiser */
-  }
+  } 
+  
 
   header .sec {
     padding-top: 10vh;
@@ -112,9 +111,9 @@ header #contact:hover {
     max-width: 400px;
   }
 
-  .code-wrapper {
+  /* .code-wrapper {
     width: 100%;
     box-shadow: none;
     text-align: left;
-  }
+  } */
 }
